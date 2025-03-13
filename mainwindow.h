@@ -19,6 +19,7 @@ public:
 private slots:
     void on_selectFileButton_clicked();
     void on_startStreamButton_clicked();
+    void on_stopStreamButton_clicked();
 
 private:
     Ui::MainWindow *ui;

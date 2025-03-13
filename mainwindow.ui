@@ -7,7 +7,7 @@
     <x>0</x>
     <y>0</y>
     <width>400</width>
-    <height>200</height>
+    <height>250</height>
    </rect>
   </property>
   <widget class="QWidget" name="centralwidget">
@@ -30,6 +30,13 @@
      <widget class="QPushButton" name="startStreamButton">
       <property name="text">
        <string>Start Streaming</string>
+      </property>
+     </widget>
+    </item>
+    <item>
+     <widget class="QPushButton" name="stopStreamButton">
+      <property name="text">
+       <string>Stop Streaming</string>
       </property>
      </widget>
     </item>

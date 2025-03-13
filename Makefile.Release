@@ -272,6 +272,8 @@ release\moc_mainwindow.cpp: mainwindow.h \
 		..\..\..\..\Qt\Qt5.14.2\5.14.2\msvc2017_64\include\QtGui\qicon.h \
 		rtspstreamer.h \
 		..\..\..\..\Qt\Qt5.14.2\5.14.2\msvc2017_64\include\QtCore\QObject \
+		..\..\..\..\Qt\Qt5.14.2\5.14.2\msvc2017_64\include\QtCore\QThread \
+		..\..\..\..\Qt\Qt5.14.2\5.14.2\msvc2017_64\include\QtCore\qthread.h \
 		..\..\..\..\gstreamer\1.0\msvc_x86_64\include\gstreamer-1.0\gst\gst.h \
 		..\..\..\..\gstreamer\1.0\msvc_x86_64\include\glib-2.0\glib.h \
 		..\..\..\..\gstreamer\1.0\msvc_x86_64\include\glib-2.0\glib\galloca.h \
@@ -737,6 +739,8 @@ release\moc_rtspstreamer.cpp: rtspstreamer.h \
 		..\..\..\..\Qt\Qt5.14.2\5.14.2\msvc2017_64\include\QtCore\qvarlengtharray.h \
 		..\..\..\..\Qt\Qt5.14.2\5.14.2\msvc2017_64\include\QtCore\qcontainerfwd.h \
 		..\..\..\..\Qt\Qt5.14.2\5.14.2\msvc2017_64\include\QtCore\qobject_impl.h \
+		..\..\..\..\Qt\Qt5.14.2\5.14.2\msvc2017_64\include\QtCore\QThread \
+		..\..\..\..\Qt\Qt5.14.2\5.14.2\msvc2017_64\include\QtCore\qthread.h \
 		..\..\..\..\gstreamer\1.0\msvc_x86_64\include\gstreamer-1.0\gst\gst.h \
 		..\..\..\..\gstreamer\1.0\msvc_x86_64\include\glib-2.0\glib.h \
 		..\..\..\..\gstreamer\1.0\msvc_x86_64\include\glib-2.0\glib\galloca.h \
@@ -1276,6 +1280,8 @@ release\main.obj: main.cpp mainwindow.h \
 		..\..\..\..\Qt\Qt5.14.2\5.14.2\msvc2017_64\include\QtGui\qicon.h \
 		rtspstreamer.h \
 		..\..\..\..\Qt\Qt5.14.2\5.14.2\msvc2017_64\include\QtCore\QObject \
+		..\..\..\..\Qt\Qt5.14.2\5.14.2\msvc2017_64\include\QtCore\QThread \
+		..\..\..\..\Qt\Qt5.14.2\5.14.2\msvc2017_64\include\QtCore\qthread.h \
 		..\..\..\..\gstreamer\1.0\msvc_x86_64\include\gstreamer-1.0\gst\gst.h \
 		..\..\..\..\gstreamer\1.0\msvc_x86_64\include\glib-2.0\glib.h \
 		..\..\..\..\gstreamer\1.0\msvc_x86_64\include\glib-2.0\glib\galloca.h \
@@ -1801,6 +1807,8 @@ release\mainwindow.obj: mainwindow.cpp mainwindow.h \
 		..\..\..\..\Qt\Qt5.14.2\5.14.2\msvc2017_64\include\QtGui\qicon.h \
 		rtspstreamer.h \
 		..\..\..\..\Qt\Qt5.14.2\5.14.2\msvc2017_64\include\QtCore\QObject \
+		..\..\..\..\Qt\Qt5.14.2\5.14.2\msvc2017_64\include\QtCore\QThread \
+		..\..\..\..\Qt\Qt5.14.2\5.14.2\msvc2017_64\include\QtCore\qthread.h \
 		..\..\..\..\gstreamer\1.0\msvc_x86_64\include\gstreamer-1.0\gst\gst.h \
 		..\..\..\..\gstreamer\1.0\msvc_x86_64\include\glib-2.0\glib.h \
 		..\..\..\..\gstreamer\1.0\msvc_x86_64\include\glib-2.0\glib\galloca.h \
@@ -2265,6 +2273,8 @@ release\rtspstreamer.obj: rtspstreamer.cpp rtspstreamer.h \
 		..\..\..\..\Qt\Qt5.14.2\5.14.2\msvc2017_64\include\QtCore\qvarlengtharray.h \
 		..\..\..\..\Qt\Qt5.14.2\5.14.2\msvc2017_64\include\QtCore\qcontainerfwd.h \
 		..\..\..\..\Qt\Qt5.14.2\5.14.2\msvc2017_64\include\QtCore\qobject_impl.h \
+		..\..\..\..\Qt\Qt5.14.2\5.14.2\msvc2017_64\include\QtCore\QThread \
+		..\..\..\..\Qt\Qt5.14.2\5.14.2\msvc2017_64\include\QtCore\qthread.h \
 		..\..\..\..\gstreamer\1.0\msvc_x86_64\include\gstreamer-1.0\gst\gst.h \
 		..\..\..\..\gstreamer\1.0\msvc_x86_64\include\glib-2.0\glib.h \
 		..\..\..\..\gstreamer\1.0\msvc_x86_64\include\glib-2.0\glib\galloca.h \

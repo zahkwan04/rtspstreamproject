@@ -27,12 +27,13 @@ public:
     QPushButton *selectFileButton;
     QLabel *filePathLabel;
     QPushButton *startStreamButton;
+    QPushButton *stopStreamButton;
 
     void setupUi(QMainWindow *MainWindow)
     {
         if (MainWindow->objectName().isEmpty())
             MainWindow->setObjectName(QString::fromUtf8("MainWindow"));
-        MainWindow->resize(400, 200);
+        MainWindow->resize(400, 250);
         centralwidget = new QWidget(MainWindow);
         centralwidget->setObjectName(QString::fromUtf8("centralwidget"));
         verticalLayout = new QVBoxLayout(centralwidget);
@@ -52,6 +53,11 @@ public:
 
         verticalLayout->addWidget(startStreamButton);
 
+        stopStreamButton = new QPushButton(centralwidget);
+        stopStreamButton->setObjectName(QString::fromUtf8("stopStreamButton"));
+
+        verticalLayout->addWidget(stopStreamButton);
+
         MainWindow->setCentralWidget(centralwidget);
 
         retranslateUi(MainWindow);
@@ -64,6 +70,7 @@ public:
         selectFileButton->setText(QCoreApplication::translate("MainWindow", "Select Video File", nullptr));
         filePathLabel->setText(QCoreApplication::translate("MainWindow", "No file selected", nullptr));
         startStreamButton->setText(QCoreApplication::translate("MainWindow", "Start Streaming", nullptr));
+        stopStreamButton->setText(QCoreApplication::translate("MainWindow", "Stop Streaming", nullptr));
         (void)MainWindow;
     } // retranslateUi
 

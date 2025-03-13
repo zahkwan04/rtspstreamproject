@@ -24,3 +24,7 @@ void MainWindow::on_startStreamButton_clicked() {
         streamer->startStreaming(videoFilePath);
     }
 }
+
+void MainWindow::on_stopStreamButton_clicked() {
+    streamer->stopStreaming();
+}
