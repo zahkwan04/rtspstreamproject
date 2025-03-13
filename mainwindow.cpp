@@ -22,6 +22,8 @@ void MainWindow::on_selectFileButton_clicked() {
 void MainWindow::on_startStreamButton_clicked() {
     if (!videoFilePath.isEmpty()) {
         streamer->startStreaming(videoFilePath);
+    } else {
+        qDebug() << "Please select a video file first.";
     }
 }
 

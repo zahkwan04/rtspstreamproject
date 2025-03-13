@@ -273,8 +273,6 @@ debug\moc_mainwindow.cpp: mainwindow.h \
 		..\..\..\..\Qt\Qt5.14.2\5.14.2\msvc2017_64\include\QtGui\qicon.h \
 		rtspstreamer.h \
 		..\..\..\..\Qt\Qt5.14.2\5.14.2\msvc2017_64\include\QtCore\QObject \
-		..\..\..\..\Qt\Qt5.14.2\5.14.2\msvc2017_64\include\QtCore\QThread \
-		..\..\..\..\Qt\Qt5.14.2\5.14.2\msvc2017_64\include\QtCore\qthread.h \
 		..\..\..\..\gstreamer\1.0\msvc_x86_64\include\gstreamer-1.0\gst\gst.h \
 		..\..\..\..\gstreamer\1.0\msvc_x86_64\include\glib-2.0\glib.h \
 		..\..\..\..\gstreamer\1.0\msvc_x86_64\include\glib-2.0\glib\galloca.h \
@@ -677,6 +675,8 @@ debug\moc_mainwindow.cpp: mainwindow.h \
 		..\..\..\..\gstreamer\1.0\msvc_x86_64\include\gstreamer-1.0\gst\rtsp-server\rtsp-onvif-media-factory.h \
 		..\..\..\..\gstreamer\1.0\msvc_x86_64\include\gstreamer-1.0\gst\rtsp-server\rtsp-onvif-media.h \
 		..\..\..\..\gstreamer\1.0\msvc_x86_64\include\gstreamer-1.0\gst\rtsp-server\rtsp-onvif-server.h \
+		..\..\..\..\Qt\Qt5.14.2\5.14.2\msvc2017_64\include\QtCore\QThread \
+		..\..\..\..\Qt\Qt5.14.2\5.14.2\msvc2017_64\include\QtCore\qthread.h \
 		..\..\..\..\Qt\Qt5.14.2\5.14.2\msvc2017_64\include\QtWidgets\QFileDialog \
 		..\..\..\..\Qt\Qt5.14.2\5.14.2\msvc2017_64\include\QtWidgets\qfiledialog.h \
 		..\..\..\..\Qt\Qt5.14.2\5.14.2\msvc2017_64\include\QtCore\qdir.h \
@@ -740,8 +740,6 @@ debug\moc_rtspstreamer.cpp: rtspstreamer.h \
 		..\..\..\..\Qt\Qt5.14.2\5.14.2\msvc2017_64\include\QtCore\qvarlengtharray.h \
 		..\..\..\..\Qt\Qt5.14.2\5.14.2\msvc2017_64\include\QtCore\qcontainerfwd.h \
 		..\..\..\..\Qt\Qt5.14.2\5.14.2\msvc2017_64\include\QtCore\qobject_impl.h \
-		..\..\..\..\Qt\Qt5.14.2\5.14.2\msvc2017_64\include\QtCore\QThread \
-		..\..\..\..\Qt\Qt5.14.2\5.14.2\msvc2017_64\include\QtCore\qthread.h \
 		..\..\..\..\gstreamer\1.0\msvc_x86_64\include\gstreamer-1.0\gst\gst.h \
 		..\..\..\..\gstreamer\1.0\msvc_x86_64\include\glib-2.0\glib.h \
 		..\..\..\..\gstreamer\1.0\msvc_x86_64\include\glib-2.0\glib\galloca.h \
@@ -1144,6 +1142,8 @@ debug\moc_rtspstreamer.cpp: rtspstreamer.h \
 		..\..\..\..\gstreamer\1.0\msvc_x86_64\include\gstreamer-1.0\gst\rtsp-server\rtsp-onvif-media-factory.h \
 		..\..\..\..\gstreamer\1.0\msvc_x86_64\include\gstreamer-1.0\gst\rtsp-server\rtsp-onvif-media.h \
 		..\..\..\..\gstreamer\1.0\msvc_x86_64\include\gstreamer-1.0\gst\rtsp-server\rtsp-onvif-server.h \
+		..\..\..\..\Qt\Qt5.14.2\5.14.2\msvc2017_64\include\QtCore\QThread \
+		..\..\..\..\Qt\Qt5.14.2\5.14.2\msvc2017_64\include\QtCore\qthread.h \
 		debug\moc_predefs.h \
 		..\..\..\..\Qt\Qt5.14.2\5.14.2\msvc2017_64\bin\moc.exe
 	C:\Qt\Qt5.14.2\5.14.2\msvc2017_64\bin\moc.exe $(DEFINES) --compiler-flavor=msvc --include C:/Users/Administrator/Documents/rtspproject/debug/moc_predefs.h -IC:/Qt/Qt5.14.2/5.14.2/msvc2017_64/mkspecs/win32-msvc -IC:/Users/Administrator/Documents/rtspproject -IC:/usr/include/gstreamer-1.0 -IC:/usr/lib/x86_64-linux-gnu/gstreamer-1.0/include -IC:/gstreamer/1.0/msvc_x86_64/include -IC:/gstreamer/1.0/msvc_x86_64/include/gstreamer-1.0 -IC:/gstreamer/1.0/msvc_x86_64/include/glib-2.0 -IC:/gstreamer/1.0/msvc_x86_64/lib/pkgconfig -IC:/gstreamer/1.0/msvc_x86_64/include/glib-2.0/include -IC:/gstreamer/1.0/msvc_x86_64/lib/glib-2.0/include -IC:/Qt/Qt5.14.2/5.14.2/msvc2017_64/include -IC:/Qt/Qt5.14.2/5.14.2/msvc2017_64/include/QtWidgets -IC:/Qt/Qt5.14.2/5.14.2/msvc2017_64/include/QtGui -IC:/Qt/Qt5.14.2/5.14.2/msvc2017_64/include/QtANGLE -IC:/Qt/Qt5.14.2/5.14.2/msvc2017_64/include/QtCore -I"C:\Program Files (x86)\Microsoft Visual Studio\2017\Community\VC\Tools\MSVC\14.16.27023\ATLMFC\include" -I"C:\Program Files (x86)\Microsoft Visual Studio\2017\Community\VC\Tools\MSVC\14.16.27023\include" -I"C:\Program Files (x86)\Windows Kits\10\include\10.0.22621.0\ucrt" -I"C:\Program Files (x86)\Windows Kits\10\include\10.0.22621.0\shared" -I"C:\Program Files (x86)\Windows Kits\10\include\10.0.22621.0\um" -I"C:\Program Files (x86)\Windows Kits\10\include\10.0.22621.0\winrt" -I"C:\Program Files (x86)\Windows Kits\10\include\10.0.22621.0\cppwinrt" rtspstreamer.h -o debug\moc_rtspstreamer.cpp
@@ -1281,8 +1281,6 @@ debug\main.obj: main.cpp mainwindow.h \
 		..\..\..\..\Qt\Qt5.14.2\5.14.2\msvc2017_64\include\QtGui\qicon.h \
 		rtspstreamer.h \
 		..\..\..\..\Qt\Qt5.14.2\5.14.2\msvc2017_64\include\QtCore\QObject \
-		..\..\..\..\Qt\Qt5.14.2\5.14.2\msvc2017_64\include\QtCore\QThread \
-		..\..\..\..\Qt\Qt5.14.2\5.14.2\msvc2017_64\include\QtCore\qthread.h \
 		..\..\..\..\gstreamer\1.0\msvc_x86_64\include\gstreamer-1.0\gst\gst.h \
 		..\..\..\..\gstreamer\1.0\msvc_x86_64\include\glib-2.0\glib.h \
 		..\..\..\..\gstreamer\1.0\msvc_x86_64\include\glib-2.0\glib\galloca.h \
@@ -1685,6 +1683,8 @@ debug\main.obj: main.cpp mainwindow.h \
 		..\..\..\..\gstreamer\1.0\msvc_x86_64\include\gstreamer-1.0\gst\rtsp-server\rtsp-onvif-media-factory.h \
 		..\..\..\..\gstreamer\1.0\msvc_x86_64\include\gstreamer-1.0\gst\rtsp-server\rtsp-onvif-media.h \
 		..\..\..\..\gstreamer\1.0\msvc_x86_64\include\gstreamer-1.0\gst\rtsp-server\rtsp-onvif-server.h \
+		..\..\..\..\Qt\Qt5.14.2\5.14.2\msvc2017_64\include\QtCore\QThread \
+		..\..\..\..\Qt\Qt5.14.2\5.14.2\msvc2017_64\include\QtCore\qthread.h \
 		..\..\..\..\Qt\Qt5.14.2\5.14.2\msvc2017_64\include\QtWidgets\QFileDialog \
 		..\..\..\..\Qt\Qt5.14.2\5.14.2\msvc2017_64\include\QtWidgets\qfiledialog.h \
 		..\..\..\..\Qt\Qt5.14.2\5.14.2\msvc2017_64\include\QtCore\qdir.h \
@@ -1808,8 +1808,6 @@ debug\mainwindow.obj: mainwindow.cpp mainwindow.h \
 		..\..\..\..\Qt\Qt5.14.2\5.14.2\msvc2017_64\include\QtGui\qicon.h \
 		rtspstreamer.h \
 		..\..\..\..\Qt\Qt5.14.2\5.14.2\msvc2017_64\include\QtCore\QObject \
-		..\..\..\..\Qt\Qt5.14.2\5.14.2\msvc2017_64\include\QtCore\QThread \
-		..\..\..\..\Qt\Qt5.14.2\5.14.2\msvc2017_64\include\QtCore\qthread.h \
 		..\..\..\..\gstreamer\1.0\msvc_x86_64\include\gstreamer-1.0\gst\gst.h \
 		..\..\..\..\gstreamer\1.0\msvc_x86_64\include\glib-2.0\glib.h \
 		..\..\..\..\gstreamer\1.0\msvc_x86_64\include\glib-2.0\glib\galloca.h \
@@ -2212,6 +2210,8 @@ debug\mainwindow.obj: mainwindow.cpp mainwindow.h \
 		..\..\..\..\gstreamer\1.0\msvc_x86_64\include\gstreamer-1.0\gst\rtsp-server\rtsp-onvif-media-factory.h \
 		..\..\..\..\gstreamer\1.0\msvc_x86_64\include\gstreamer-1.0\gst\rtsp-server\rtsp-onvif-media.h \
 		..\..\..\..\gstreamer\1.0\msvc_x86_64\include\gstreamer-1.0\gst\rtsp-server\rtsp-onvif-server.h \
+		..\..\..\..\Qt\Qt5.14.2\5.14.2\msvc2017_64\include\QtCore\QThread \
+		..\..\..\..\Qt\Qt5.14.2\5.14.2\msvc2017_64\include\QtCore\qthread.h \
 		..\..\..\..\Qt\Qt5.14.2\5.14.2\msvc2017_64\include\QtWidgets\QFileDialog \
 		..\..\..\..\Qt\Qt5.14.2\5.14.2\msvc2017_64\include\QtWidgets\qfiledialog.h \
 		..\..\..\..\Qt\Qt5.14.2\5.14.2\msvc2017_64\include\QtCore\qdir.h \
@@ -2274,8 +2274,6 @@ debug\rtspstreamer.obj: rtspstreamer.cpp rtspstreamer.h \
 		..\..\..\..\Qt\Qt5.14.2\5.14.2\msvc2017_64\include\QtCore\qvarlengtharray.h \
 		..\..\..\..\Qt\Qt5.14.2\5.14.2\msvc2017_64\include\QtCore\qcontainerfwd.h \
 		..\..\..\..\Qt\Qt5.14.2\5.14.2\msvc2017_64\include\QtCore\qobject_impl.h \
-		..\..\..\..\Qt\Qt5.14.2\5.14.2\msvc2017_64\include\QtCore\QThread \
-		..\..\..\..\Qt\Qt5.14.2\5.14.2\msvc2017_64\include\QtCore\qthread.h \
 		..\..\..\..\gstreamer\1.0\msvc_x86_64\include\gstreamer-1.0\gst\gst.h \
 		..\..\..\..\gstreamer\1.0\msvc_x86_64\include\glib-2.0\glib.h \
 		..\..\..\..\gstreamer\1.0\msvc_x86_64\include\glib-2.0\glib\galloca.h \
@@ -2678,6 +2676,8 @@ debug\rtspstreamer.obj: rtspstreamer.cpp rtspstreamer.h \
 		..\..\..\..\gstreamer\1.0\msvc_x86_64\include\gstreamer-1.0\gst\rtsp-server\rtsp-onvif-media-factory.h \
 		..\..\..\..\gstreamer\1.0\msvc_x86_64\include\gstreamer-1.0\gst\rtsp-server\rtsp-onvif-media.h \
 		..\..\..\..\gstreamer\1.0\msvc_x86_64\include\gstreamer-1.0\gst\rtsp-server\rtsp-onvif-server.h \
+		..\..\..\..\Qt\Qt5.14.2\5.14.2\msvc2017_64\include\QtCore\QThread \
+		..\..\..\..\Qt\Qt5.14.2\5.14.2\msvc2017_64\include\QtCore\qthread.h \
 		..\..\..\..\Qt\Qt5.14.2\5.14.2\msvc2017_64\include\QtCore\QDebug \
 		..\..\..\..\Qt\Qt5.14.2\5.14.2\msvc2017_64\include\QtCore\qdebug.h \
 		..\..\..\..\Qt\Qt5.14.2\5.14.2\msvc2017_64\include\QtCore\qhash.h \
